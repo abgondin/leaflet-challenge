@@ -1,5 +1,7 @@
 # Leaflet Homework - Visualizing Data with Leaflet
 
+Check out the latest earthquake data (all events in the last 7 days): https://abgondin.github.io/leaflet-challenge/
+
 ## Background
 
 ![1-Logo](Images/1-Logo.png)
