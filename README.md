@@ -1,4 +1,4 @@
-# 17 Leaflet - Earthquake History
+# 17 Leaflet - Map Earthquake Feed
 
 ## Demo page
 
@@ -6,7 +6,11 @@ Check out the latest earthquake data (all events in the last 7 days): https://ab
 
 ## Background
 
-This project visualizes real time earthquake data from the United States Geological Survey.
+A live webpage that provides near-live feed of global earthquakes and their relative magnitudes.
+
+## Skills
+
+HTML | CSS |JavaScript | Leaflet.js | APIs | JSON | geo-mapping | animated maps
 
 ### Level 1: Basic Visualization
 
@@ -14,7 +18,7 @@ The USGS provides earthquake data updated every 5 minutes. Here, the URL of the 
 
 ![4-JSON](Images/4-JSON.png)
 
-A Leaflet map was used to plot all of the earthquakes from your data set based on their longitude and latitude.
+A Leaflet map was created to plot all of the earthquakes from the dataset based on their longitude and latitude.
    * The data markers reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes appear larger and darker.
    * Includes popups that provide additional information about the earthquake when a marker is clicked.
    * A legend that provides context for the map data.
@@ -25,7 +29,7 @@ A Leaflet map was used to plot all of the earthquakes from your data set based o
 
 Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
-A second Leaflet map was used to illustrate the relationship between tectonic plates and seismic activity.
+A second Leaflet map was created to illustrate the relationship between tectonic plates and seismic activity.
    * Two datasets are plotted on the map.
    * A number of base maps are added.
    * The two different data sets can be separated into overlays that can be turned on and off independently.
